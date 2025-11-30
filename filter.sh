@@ -75,7 +75,7 @@ opciones(){
       read -p "[+] Escribe el permiso del archivo o directorio, ej (755): " perms 
       echo -e "\n${yellowColour}[+]${endColour}${grayColour} Mostrando el/los archivo(s) o directorio(s): ${endColour}\n"
       sleep 0.5
-      find / -perm *$perms* 2>/dev/null
+      find / -perm $perms 2>/dev/null
       echo -e "\n${redColour}[+] Version 2.0"
       exit 0
       ;;
