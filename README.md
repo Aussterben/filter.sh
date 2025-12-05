@@ -25,6 +25,8 @@ ___
 
 -u) → Busca por usuarios
 
+![](https://raw.githubusercontent.com/Aussterben/filter.sh/refs/heads/main/Menu.png)
+
 # Creador
 Este script está totalmente creado por Aussterben. Si quieres usarlo, recuerda dar créditos.
 
